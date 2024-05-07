@@ -4,18 +4,18 @@
 
 ## Version 2.X est là !
 
-Pour la version 1.X, consultez les [versions précédentes](https://github.com/changeweb/Unifiedtransform/releases). La prise en charge de la version 1.X continue dans la branche [v1-x-branch](https://github.com/changeweb/Unifiedtransform/tree/v1-x-branch).
+Pour la version 1.X, consultez les [versions précédentes](https://github.com/changeweb/Skuulu/releases). La prise en charge de la version 1.X continue dans la branche [v1-x-branch](https://github.com/changeweb/Skuulu/tree/v1-x-branch).
 
 ### Logiciel de Gestion Scolaire et Comptabilité
 
-[![Statut de construction](https://travis-ci.org/changeweb/Unifiedtransform.svg?branch=master)](https://travis-ci.org/changeweb/Unifiedtransform)
+[![Statut de construction](https://travis-ci.org/changeweb/Skuulu.svg?branch=master)](https://travis-ci.org/changeweb/Skuulu)
 ![Prix Gratuit](https://img.shields.io/badge/Prix-Gratuit-brightgreen)
-[![Linux](https://img.shields.io/travis/changeweb/Unifiedtransform/master.svg?label=linux)](https://travis-ci.org/changeweb/Unifiedtransform)
-[![Climat de code](https://codeclimate.com/github/changeweb/Unifiedtransform/badges/gpa.svg)](https://codeclimate.com/github/changeweb/Unifiedtransform)
-[![Dernière version](https://img.shields.io/github/release/changeweb/Unifiedtransform/all.svg)](https://github.com/changeweb/Unifiedtransform/releases)
-[![Fait avec Laravel](https://madewithlaravel.com/storage/repo-shields/1362-shield.svg)](https://madewithlaravel.com/p/unifiedtransform/shield-link)
+[![Linux](https://img.shields.io/travis/changeweb/Skuulu/master.svg?label=linux)](https://travis-ci.org/changeweb/Skuulu)
+[![Climat de code](https://codeclimate.com/github/changeweb/Skuulu/badges/gpa.svg)](https://codeclimate.com/github/changeweb/Skuulu)
+[![Dernière version](https://img.shields.io/github/release/changeweb/Skuulu/all.svg)](https://github.com/changeweb/Skuulu/releases)
+[![Fait avec Laravel](https://madewithlaravel.com/storage/repo-shields/1362-shield.svg)](https://madewithlaravel.com/p/Skuulu/shield-link)
 [![Discord](https://img.shields.io/discord/917848091107946556)](https://discord.gg/8sz6kpup99)
-[![Contribuer](https://img.shields.io/badge/Aide%20Requise-Contribuer-blue)](https://github.com/changeweb/Unifiedtransform/issues?q=is%3Aissue+is%3Aopen)
+[![Contribuer](https://img.shields.io/badge/Aide%20Requise-Contribuer-blue)](https://github.com/changeweb/Skuulu/issues?q=is%3Aissue+is%3Aopen)
 
 Nous aimons remettre en question la qualité de ce que nous construisons pour l'améliorer. Pour ce faire, nous essayons de rendre le logiciel intuitif, beau et facile à utiliser. L'innovation et le travail acharné aident à satisfaire ces exigences. Je crois qu'il est nécessaire de penser différemment pour innover. Il y a quelques mois, j'ai découvert qu'il n'y avait pas de logiciel gratuit et open source de gestion scolaire qui répondait à mes critères de qualité. Sachant un peu programmer, j'ai décidé d'en créer un. Je crois aussi que travailler avec plus de personnes peut pousser le standard plus haut que de travailler seul. Ainsi, j'ai décidé de le rendre open source et gratuit.
 
