@@ -2,11 +2,7 @@
 
 ![Logo de Skuulu](public/skuulu.svg)
 
-## Version 2.X est là !
-
-Pour la version 1.X, consultez les [versions précédentes](https://github.com/changeweb/Skuulu/releases). La prise en charge de la version 1.X continue dans la branche [v1-x-branch](https://github.com/changeweb/Skuulu/tree/v1-x-branch).
-
-### Logiciel de Gestion Scolaire et Comptabilité
+## Logiciel de Gestion Scolaire et Comptabilité
 
 [![Statut de construction](https://travis-ci.org/changeweb/Skuulu.svg?branch=master)](https://travis-ci.org/changeweb/Skuulu)
 ![Prix Gratuit](https://img.shields.io/badge/Prix-Gratuit-brightgreen)
@@ -19,17 +15,12 @@ Pour la version 1.X, consultez les [versions précédentes](https://github.com/c
 
 Nous aimons remettre en question la qualité de ce que nous construisons pour l'améliorer. Pour ce faire, nous essayons de rendre le logiciel intuitif, beau et facile à utiliser. L'innovation et le travail acharné aident à satisfaire ces exigences. Je crois qu'il est nécessaire de penser différemment pour innover. Il y a quelques mois, j'ai découvert qu'il n'y avait pas de logiciel gratuit et open source de gestion scolaire qui répondait à mes critères de qualité. Sachant un peu programmer, j'ai décidé d'en créer un. Je crois aussi que travailler avec plus de personnes peut pousser le standard plus haut que de travailler seul. Ainsi, j'ai décidé de le rendre open source et gratuit.
 
-### Présenté sur Laravel News !!
-
-![Screenshot_2019-04-07 Laravel News](https://user-images.githubusercontent.com/9896315/55683832-1b3c8c80-5966-11e9-8dfb-ab30a79a98ed.png)
-[Voir la nouvelle ici](https://laravel-news.com/unified-transform-open-source-school-management-platform)
-
-### Framework utilisé
+## Framework utilisé
 
 -   [Laravel 8.X](https://laravel.com/docs/8.x)
 -   [Bootstrap 5.X](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 
-### Exigences du serveur
+## Exigences du serveur
 
 -   PHP >= 7.4
 -   Extension PHP OpenSSL
@@ -38,7 +29,7 @@ Nous aimons remettre en question la qualité de ce que nous construisons pour l'
 -   Extension PHP Tokenizer
 -   Extension PHP XML
 
-### Tests
+## Tests
 
 Nous voulons des logiciels testables. La plupart des parties du logiciel dans la version précédente 1.x étaient couvertes par des tests. Couvrons également la version 2.x. Vous pouvez également contribuer en rédigeant des cas de test !
 
@@ -50,19 +41,17 @@ $ docker exec -it app sh
 :/# php artisan test
 ```
 
-### Licence
+## Licence
 
 Skuulu est sous Licence Publique Générale GNU v3.0
 
-### Contribuer
+## Contribuer
 
-Skuulu est 100% open source et gratuit pour toujours ! La contribution communautaire peut rendre ce produit meilleur ! Rejoignez-nous !
-
-Image d'analyse Repobeats
+Skuulu est 100% open source et gratuit ! La contribution communautaire peut rendre ce produit meilleur ! Rejoignez-nous !
 
 Lorsque vous contribuez à un projet Github, vous acceptez les Conditions d'Utilisation de Github (Contributions Sous Licence de Répertoire).
 
-### Nouveautés
+## Nouveautés
 
 v1.0X est construite à partir de zéro. L'interface utilisateur et le workflow interne de l'application sont modifiés pour un meilleur design.
 
@@ -79,7 +68,7 @@ Les fonctionnalités suivantes existant dans v1.X seront ajoutées dans v2.X ég
 -   Gestion des certificats.
 -   Prise en charge d'autres langues (français, lingala,...).
 
-### Étapes d'installation
+## Étapes d'installation
 
 1. Clonez ou téléchargez le dépôt.
 2. Créez un dossier **purify** dans le répertoire `storage/app/`.
@@ -106,39 +95,39 @@ Les fonctionnalités suivantes existant dans v1.X seront ajoutées dans v2.X ég
     - Email : admin@skuulu.com
     - Mot de passe : password
 
-### Étapes à suivre
+## Étapes à suivre
 
 Veuillez suivre attentivement les étapes pour configurer l'école dans Skuulu :
 
 **Rôle : Administrateur**
 
-#### Dashboard de l'École
+### Dashboard de l'École
 
-##### 1. Créer une Session Scolaire
+### 1. Créer une Session Scolaire
 
 Après vous être connecté pour la première fois, vous verrez le message suivant dans la barre de navigation supérieure. Pour créer une nouvelle session, allez à la page **Paramètres académiques**.
 
 ![Créer Session](public/docs/imgs/ut/Screenshot 2021-12-07 at 00-31-38 Unifiedtransform.png)
 
-##### 2. Créer un Semestre
+### 2. Créer un Semestre
 
 Créez maintenant un semestre. Un semestre dure généralement de 3 à 6 mois.
 
 ![Créer Semestre](public/docs/imgs/ut/Screenshot 2021-12-07 at 00-34-45 Unifiedtransform.png)
 
-##### 3. Créer des Classes
+### 3. Créer des Classes
 
 Créez des classes en donnant des noms courants comme **Classe 1** ou **Classe 11 (Science)**.
 
 ![Créer Classes](public/docs/imgs/ut/Screenshot 2021-12-07 at 00-35-16 Unifiedtransform.png)
 
-##### 4. Créer des Sections
+### 4. Créer des Sections
 
 Créez des sections pour chaque classe, attribuez un nom (par exemple, Section A, Section B), un numéro de salle et associez-les à la classe respective.
 
 ![Créer Sections](public/docs/imgs/ut/Screenshot 2021-12-07 at 00-36-27 Unifiedtransform.png)
 
-##### 5. Créer des Cours
+### 5. Créer des Cours
 
 Attribuez des cours aux semestres et classes appropriés.
 
@@ -146,7 +135,7 @@ Attribuez des cours aux semestres et classes appropriés.
 
 ### Rôle : Enseignant
 
-#### Dashboard de l'Enseignant
+### Dashboard de l'Enseignant
 
 Les enseignants peuvent gérer leurs cours, prendre et consulter les présences, consulter et créer des devoirs, donner des notes, et plus encore.
 
@@ -154,4 +143,25 @@ Les enseignants peuvent gérer leurs cours, prendre et consulter les présences,
 
 #### Dashboard de l'Étudiant
 
-Les étudiants peuvent consulter leurs cours, les présences, les notes, et télécharger les programmes des cours et devoirs.
+Les étudiants peuvent accéder à leur tableau de bord pour consulter leurs cours, vérifier leurs présences, voir leurs notes et télécharger les syllabus et devoirs de leurs cours.
+
+![Dashboard Étudiant](public/docs/imgs/ut/Screenshot_Student_Dashboard.png) <!-- Imaginary link, replace with actual screenshot link -->
+
+### Rôle : Parent
+
+#### Dashboard du Parent
+
+Les parents peuvent accéder au tableau de bord dédié pour suivre les progrès académiques de leur enfant. Ils peuvent consulter les notes, les présences et les communications importantes de l'école. Ce tableau de bord permet également aux parents de recevoir des mises à jour sur les événements scolaires à venir et les notifications importantes.
+
+![Dashboard Parent](public/docs/imgs/ut/Screenshot_Parent_Dashboard.png) <!-- Imaginary link, replace with actual screenshot link -->
+
+### Comment démarrer avec Skuulu
+
+Pour commencer à utiliser Skuulu, suivez ces étapes simples pour une configuration rapide :
+
+1. **Installation et configuration :** Assurez-vous que toutes les dépendances et exigences du serveur sont satisfaites comme décrit ci-dessus, puis suivez les instructions d'installation pour configurer Skuulu sur votre serveur.
+2. **Connexion :** Utilisez les identifiants fournis pour vous connecter en tant qu'administrateur, enseignant, étudiant ou parent selon votre rôle.
+3. **Exploration :** Naviguez dans les différentes sections du tableau de bord pour découvrir toutes les fonctionnalités disponibles pour votre rôle.
+4. **Interaction :** Participez activement en utilisant les outils de communication, gestion des cours, et autres ressources mises à disposition.
+
+Pour toute assistance technique ou questions, veuillez consulter notre section d'aide ou contacter le support technique.
