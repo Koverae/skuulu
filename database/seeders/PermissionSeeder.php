@@ -93,7 +93,7 @@ class PermissionSeeder extends Seeder
         Permission::create(['name' => 'view classes']);
         Permission::create(['name' => 'edit classes']);
         // Permission::create(['name' => 'delete classes']);
-        
+
         Permission::create(['name' => 'create sections']);
         Permission::create(['name' => 'view sections']);
         Permission::create(['name' => 'edit sections']);
@@ -101,8 +101,8 @@ class PermissionSeeder extends Seeder
 
         $user = \App\Models\User::factory()->create([
             'email' => 'admin@ut.com',
-            'first_name' => 'Hasib',
-            'last_name' => 'Mahmud'
+            'first_name' => 'Arden',
+            'last_name' => 'BOUET'
         ]);
         $user->givePermissionTo(
             'create school sessions',
@@ -138,7 +138,7 @@ class PermissionSeeder extends Seeder
             'promote students',
             'update attendances type',
             'view attendances',
-            'take attendances',//Teacher only
+            'take attendances', //Teacher only
             'create grading systems',
             'view grading systems',
             'edit grading systems',
