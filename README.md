@@ -1,6 +1,6 @@
 # Skuulu
 
-![Logo de Skuulu](public/appname.svg)
+![Logo de Skuulu](public/skuulu.svg)
 
 ## Version 2.X est là !
 
