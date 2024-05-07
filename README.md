@@ -2,7 +2,7 @@
 
 ![Logo de Skuulu](public/skuulu.svg)
 
-## Logiciel de Gestion Scolaire et Comptabilité
+## Logiciel de Gestion Scolaire
 
 [![Statut de construction](https://travis-ci.org/changeweb/Skuulu.svg?branch=master)](https://travis-ci.org/changeweb/Skuulu)
 ![Prix Gratuit](https://img.shields.io/badge/Prix-Gratuit-brightgreen)
